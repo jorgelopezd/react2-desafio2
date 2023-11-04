@@ -2,8 +2,9 @@ import React from 'react';
 import IconHeart from './IconHeart';
 
 const Gallery = ({ fotos }) => {
+
   return (
-    <div className="gallery grid-columns-5 p-3">
+    <div className="gallery grid-columns-5">
       {fotos.map((foto) => (
         <div key={foto.id} className="card">
           <div className='img-wrapper'>
